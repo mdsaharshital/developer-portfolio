@@ -48,6 +48,7 @@ section {
   background-repeat: no-repeat;
   background-position: left;
 }
+
 .font-cntrl {
   font-size: 40px;
 }
@@ -65,11 +66,21 @@ section {
   border-left: 7px solid;
   border-image: linear-gradient(purple, tomato);
   border-image-slice: 1;
+  transition: 0.3s all;
+}
+.new-border-1:hover {
+  /* extra */
+  transform: scale(1.03);
 }
 .new-border-2 {
   border-left: 7px solid;
   border-image: linear-gradient(blue, cyan);
   border-image-slice: 1;
+  transition: 0.3s all;
+}
+.new-border-2:hover {
+  /* extra */
+  transform: scale(1.03);
 }
 footer p {
   text-align: center;
